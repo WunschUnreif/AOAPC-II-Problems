@@ -37,6 +37,7 @@
         "typeinfo": "cpp",
         "algorithm": "cpp",
         "new": "cpp",
-        "utility": "cpp"
+        "utility": "cpp",
+        "array": "cpp"
     }
 }
