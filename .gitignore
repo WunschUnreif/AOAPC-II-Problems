@@ -4,4 +4,8 @@ in
 out
 *.pdf
 *.json
+GPATH
+GRTAGS
+GTAGS
+*.json
 *.json
