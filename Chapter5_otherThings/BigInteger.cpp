@@ -38,6 +38,12 @@ struct BigInteger {
             nums.push_back(numStr[i] - '0');
         return *this;
     }
+
+    // BigInteger operator + (const BigInteger& bign) {
+    //     std::vector<int> v1 = nums;
+    //     std::vector<int> v2 = bign.nums;
+    //     return BigInteger(0);
+    // }
 };
 
 std::ostream& operator << (std::ostream &out, const BigInteger &bign) {
@@ -58,6 +64,6 @@ int main() {
     BigInteger bing = 1;
     std::cout << bing << std::endl;
     std::cin >> bing;
-    std::cout << bing << std::endl;  
+    std::cout << bing << std::endl;
     return 0;
 }
